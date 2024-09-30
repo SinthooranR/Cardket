@@ -1,1 +1,5 @@
-<p>cards works!</p>
+<h1 class="text-center">Cards Page</h1>
+
+<div class="flex full-center row wrap gap-2">
+  <app-card *ngFor="let card of cards" [card]="card"></app-card>
+</div>
